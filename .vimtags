@@ -1,0 +1,20 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+<C-n>	/Users/gabriels/.vimrc	/^map <C-n> :NERDTreeToggle<CR>$/;"	m	language:Vim
+asyncCompare	/Users/gabriels/src/dashboard-test-automation/casperjs/web/hs-phantomcss.js	/^function asyncCompare(one, two, func) {$/;"	f	language:JavaScript
+compareNegativeFiles	/Users/gabriels/src/dashboard-test-automation/casperjs/web/hs-phantomcss.js	/^function compareNegativeFiles(baseFile, file) {$/;"	f	language:JavaScript
+compareNegativeFiles.test.filename	/Users/gabriels/src/dashboard-test-automation/casperjs/web/hs-phantomcss.js	/^        filename: baseFile$/;"	p	language:JavaScript
+fs	/Users/gabriels/src/dashboard-test-automation/casperjs/web/hs-phantomcss.js	/^var fs = require('fs');$/;"	v	language:JavaScript
+g:acp_enableAtStartup	/Users/gabriels/.vimrc	/^let g:acp_enableAtStartup = 1$/;"	v	language:Vim
+g:airline#extensions#tabline#enabled	/Users/gabriels/.vimrc	/^let g:airline#extensions#tabline#enabled = 1$/;"	v	language:Vim
+g:easytags_syntax_keyword	/Users/gabriels/.vimrc	/^let g:easytags_syntax_keyword = 'always'$/;"	v	language:Vim
+g:neocomplete#enable_at_startup	/Users/gabriels/.vimrc	/^let g:neocomplete#enable_at_startup = 1$/;"	v	language:Vim
+g:neocomplete#enable_smart_case	/Users/gabriels/.vimrc	/^let g:neocomplete#enable_smart_case = 1$/;"	v	language:Vim
+g:neocomplete#sources#syntax#min_keyword_length	/Users/gabriels/.vimrc	/^let g:neocomplete#sources#syntax#min_keyword_length = 3$/;"	v	language:Vim
+g:solarized_termcolors	/Users/gabriels/.vimrc	/^let g:solarized_termcolors = 256  " New line$/;"	v	language:Vim
+initClient	/Users/gabriels/src/dashboard-test-automation/casperjs/web/hs-phantomcss.js	/^function initClient() {$/;"	f	language:JavaScript
+_addLabelToFailedImage	/Users/gabriels/src/dashboard-test-automation/casperjs/web/hs-phantomcss.js	/^var _addLabelToFailedImage = true;$/;"	v	language:JavaScript
+_libraryRoot	/Users/gabriels/src/dashboard-test-automation/casperjs/web/hs-phantomcss.js	/^var _libraryRoot = '.' + fs.separator;$/;"	v	language:JavaScript
+_mismatchTolerance	/Users/gabriels/src/dashboard-test-automation/casperjs/web/hs-phantomcss.js	/^var _mismatchTolerance = 0.05;$/;"	v	language:JavaScript
+_onFailNegative	/Users/gabriels/src/dashboard-test-automation/casperjs/web/hs-phantomcss.js	/^function _onFailNegative(test) {$/;"	f	language:JavaScript
+_onPassNegative	/Users/gabriels/src/dashboard-test-automation/casperjs/web/hs-phantomcss.js	/^function _onPassNegative(test) {$/;"	f	language:JavaScript
+_resembleOutputSettings	/Users/gabriels/src/dashboard-test-automation/casperjs/web/hs-phantomcss.js	/^var _resembleOutputSettings;$/;"	v	language:JavaScript

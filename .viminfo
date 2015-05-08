@@ -15,11 +15,11 @@ $\rparent
 
 # Command Line History (newest to oldest):
 :q
+:wq
 :Gstatus
 :Glog -- %
 :Glog
 :BundleInstall
-:wq
 :w
 ::q
 :/_libraryRoot
@@ -94,20 +94,25 @@ $\rparent
 	w
 
 # File marks:
-'0  23  0  ~/NERD_tree_1
-'1  5  0  ~/src/dashboard-test-automation/casperjs/web/conf-prod.js
-'2  108  0  fugitive:///Users/gabriels/src/dashboard-test-automation/.git//83aee6fae8dcb52456f0bcddc5e1ac875063cfa6
-'3  1  0  ~/src/dashboard-test-automation/casperjs/web/NERD_tree_1
-'4  21  0  ~/.vimrc
-'5  1  0  ~/src/dashboard-test-automation/casperjs/web/admin-data.js
-'6  1  0  ~/.vimrc
-'7  51  43  ~/.vimrc
-'8  12  0  ~/src/dashboard-test-automation/casperjs/web/billing-data-prod.js
-'9  6  0  ~/.vimrc
+'0  1  0  ~/tags
+'1  8  6  ~/.gitignore
+'2  34  0  ~/NERD_tree_1
+'3  5  0  ~/src/dashboard-test-automation/casperjs/web/conf-prod.js
+'4  108  0  fugitive:///Users/gabriels/src/dashboard-test-automation/.git//83aee6fae8dcb52456f0bcddc5e1ac875063cfa6
+'5  1  0  ~/src/dashboard-test-automation/casperjs/web/NERD_tree_1
+'6  21  0  ~/.vimrc
+'7  1  0  ~/src/dashboard-test-automation/casperjs/web/admin-data.js
+'8  1  0  ~/.vimrc
+'9  51  43  ~/.vimrc
 
 # Jumplist (newest first):
--'  23  0  ~/NERD_tree_1
--'  26  2  ~/NERD_tree_1
+-'  1  0  ~/tags
+-'  1  0  ~/.vimtags
+-'  5  0  ~/.vimtags
+-'  8  6  ~/.gitignore
+-'  1  0  ~/.gitignore
+-'  34  0  ~/NERD_tree_1
+-'  37  2  ~/NERD_tree_1
 -'  1  0  ~/NERD_tree_1
 -'  5  0  ~/src/dashboard-test-automation/casperjs/web/conf-prod.js
 -'  13  0  ~/src/dashboard-test-automation/casperjs/web/NERD_tree_1
@@ -186,11 +191,27 @@ $\rparent
 -'  25  0  ~/.vimrc
 -'  28  0  ~/.vimrc
 -'  16  0  ~/.vimrc
+-'  5  0  ~/src/dashboard-test-automation/casperjs/web/conf-prod.js
+-'  13  0  ~/src/dashboard-test-automation/casperjs/web/NERD_tree_1
+-'  1  0  ~/src/dashboard-test-automation/casperjs/web/NERD_tree_1
+-'  20  2  ~/src/dashboard-test-automation/casperjs/web/NERD_tree_1
+-'  108  0  fugitive:///Users/gabriels/src/dashboard-test-automation/.git//83aee6fae8dcb52456f0bcddc5e1ac875063cfa6
+-'  1  0  fugitive:///Users/gabriels/src/dashboard-test-automation/.git//83aee6fae8dcb52456f0bcddc5e1ac875063cfa6
+-'  5  0  fugitive:///Users/gabriels/src/dashboard-test-automation/.git//83aee6fae8dcb52456f0bcddc5e1ac875063cfa6/casperjs/web/tests/billing/create_pro_user.js
+-'  1  0  fugitive:///Users/gabriels/src/dashboard-test-automation/.git//83aee6fae8dcb52456f0bcddc5e1ac875063cfa6/casperjs/web/tests/billing/create_pro_user.js
+-'  140  0  ~/src/dashboard-test-automation/casperjs/web/tests/billing/create_pro_user.js
+-'  5  0  ~/src/dashboard-test-automation/casperjs/web/billing-data-prod.js
+-'  30  0  ~/src/dashboard-test-automation/casperjs/web/NERD_tree_1
+-'  39  2  ~/src/dashboard-test-automation/casperjs/web/NERD_tree_1
+-'  58  2  ~/src/dashboard-test-automation/casperjs/web/NERD_tree_1
 
 # History of marks within files (newest to oldest):
 
+> ~/.vimtags
+	"	1	0
+
 > ~/NERD_tree_1
-	"	23	0
+	"	16	1
 	.	1	0
 	+	1	0
 	+	1	0
@@ -204,6 +225,34 @@ $\rparent
 	+	1	0
 	+	1	0
 	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/ControlP
+	"	10	0
+	.	2	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	2	0
+
+> ~/tags
+	"	1	0
+
+> ~/.gitignore
+	"	8	6
+	^	8	7
+	.	7	8
+	+	1	17
+	+	3	0
+	+	8	7
+	+	7	8
 
 > ~/src/dashboard-test-automation/casperjs/web/NERD_tree_1
 	"	13	0
@@ -595,14 +644,6 @@ $\rparent
 
 > ~/.gitconfig_old
 	"	3	0
-
-> ~/ControlP
-	"	10	0
-	.	2	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	2	0
 
 > ~/src/dashboard/install
 	"	81	4

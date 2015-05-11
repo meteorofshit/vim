@@ -27,6 +27,7 @@ Plugin 'Raimondi/delimitMate'
 call vundle#end()            " required
 filetype plugin indent on    " required
 filetype plugin on
+<<<<<<< HEAD
 
 " set backspace (delete)
 set backspace=indent,eol,start
@@ -46,6 +47,8 @@ set smarttab
 
 " always uses spaces instead of tab characters
 set expandtab
+=======
+>>>>>>> bae1d99ae1e1d3db242034f86038acc4d4c6866c
 
 " solarized 
 set number        " Show line numbers

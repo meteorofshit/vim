@@ -8,20 +8,25 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 Plugin 'altercation/vim-colors-solarized'
-Plugin 'jelera/vim-javascript-syntax'
 Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Shutnik/jshint2.vim'
 Plugin 'Shougo/neocomplete.vim'
-Plugin 'tpope/vim-surround'
 Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-easytags'
 Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-fugitive'
+Plugin 'pangloss/vim-javascript'
+Plugin 'scrooloose/syntastic'
+Plugin 'elzr/vim-json'
+Plugin 'ervandew/supertab'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'Raimondi/delimitMate'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
+filetype plugin on
 
 " solarized 
 set number        " Show line numbers
@@ -29,9 +34,6 @@ syntax enable     " Use syntax highlighting
 set background=dark
 let g:solarized_termcolors = 256  " New line
 colorscheme solarized
-
-" vim-javascript-syntax
-au FileType javascript call JavaScriptFold()
 
 " nerdTree
 map <C-n> :NERDTreeToggle<CR>
@@ -50,3 +52,16 @@ let g:easytags_syntax_keyword = 'always'
 " vim-airline
 let g:airline#extensions#tabline#enabled = 1
 
+" vim-javascript
+let b:javascript_fold = 0
+
+" syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_javascript_checkers = ['jslint']

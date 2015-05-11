@@ -78,3 +78,4 @@ export SSH_KEY_PATH="~/.ssh/dsa_id"
 # Example aliases
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
+alias vimconfig="vim ~/.vimrc"

@@ -1,0 +1,111 @@
+snippet f "Basic function" !w
+function${1}(${2}) {
+${3}
+}
+endsnippet
+
+snippet j "JSON.stringify()" !w
+JSON.stringify(${1})
+endsnippet
+
+snippet f, "Basic function with comma" !w
+function${3}(${1}) {
+${2}
+},
+endsnippet
+
+snippet f; "Basic function with semicolon" !w
+function${3}(${1}) {
+${2}
+};
+endsnippet
+
+snippet c "Callback" !w
+function(${1:err}) {
+${2}
+})
+endsnippet
+
+snippet l "console.log()" !b
+console.log(${1});
+endsnippet
+
+snippet i "console.info()" !b
+console.info(${1});
+endsnippet
+
+snippet w "console.warn()" !b
+console.warn(${1});
+endsnippet
+
+snippet e "console.error()" !b
+console.error(${1});
+endsnippet
+
+snippet use "use strict" !b
+"use strict";
+endsnippet
+
+snippet remove "Remove element from array" !b
+var ${3:i} = ${1:array}.indexOf(${2:value});
+if (${3/(.*)/$1/} > -1) ${1/(.*)/$1/}.splice(${3/(.*)/$1/}, 1);
+endsnippet
+
+snippet ** "yuidoc comment" !b
+/*
+ * @${2}
+ */
+endsnippet
+
+snippet s "hsc step" !w
+hsc.step('${1:description}', function () {
+	${2}
+});
+endsnippet
+
+snippet t "hsc test" !w
+hsc.beguin('${1:description}', [], function suite() {
+	
+	var sn = ads.facebookPages[__env__].${2}
+	
+	${3}
+	
+	casper.run(function () {
+		this.test.done();
+	});
+});
+endsnippet
+
+snippet css "ads css" !w
+ads.css.${1:selector}
+endsnippet
+
+snippet cthen "casper.then" !w
+casper.then(function () {
+	${1:...}
+});
+endsnippet
+
+snippet tthen "this.then" !w
+this.then(function () {
+	${1:...}
+});
+endsnippet
+
+snippet wfor "casper.waitForSelector" !w
+casper.waitForSelector(${1:selector}, function () {
+	${2:...}
+});
+endsnippet
+
+snippet twfor "this.waitForSelector" !w
+this.waitForSelector(${1:selector}, function () {
+	${2:...}
+});
+endsnippet
+
+snippet teval "this.evaluate" !w
+this.evaluate(function () {
+	${1:...}
+});
+endsnippet
